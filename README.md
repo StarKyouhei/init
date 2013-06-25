@@ -14,7 +14,7 @@
 <dt>CSS<dt>
 <ul>
 <li>YUIでリセット</li>
-<li>less.jsを利用</li>
+<li>less.jsを利用可能</li>
 </ul>
 </dd>
 <dd>
@@ -22,6 +22,7 @@
 <ul>
 <li>jsフォルダのmain.jsに記述</li>
 <li>main.jsはjQeryでロード</li>
+<li>underscore.jsも初期ロード</li>
 </ul>
 </dd>
 </dl>
@@ -31,6 +32,7 @@
 <dd>
 <ul>
 <li>jQuery</li>
+<li>underscore.js</li>
 <li>three.js</li>
 <li>less.js</li>
 <li>modernizr.js</li>
