@@ -146,14 +146,14 @@ function AppFunctions(){}
 AppFunctions.prototype.lightBoxCreate = function( imgPath ){
 	var content = '<div id="lby"><img src="'+imgPath+'" width="100%" height="100%"/></div><div id="pbw"></div>';
 	$('body').children().append(content);
-	$( document.getElementById('lb_overlay') ).css({
+	$( document.getElementById('lby') ).css({
 		position: 'fixed',
 		top: 0,
 		left: 0,
 		width: '100%',
 		'z-index': 100
 	});
-	$( document.getElementById('popUpBlockWrap') ).css({
+	$( document.getElementById('pbw') ).css({
 		position: 'absolute',
 		top: '50%',
 		left: '50%',
